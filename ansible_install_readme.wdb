@@ -1,0 +1,7 @@
+【说明】
+install_ansible.sh 		这个是自动安装脚本。
+ansible-2.9.7.tar.gz  		这个是ansible源代码文件
+ansible_install_rpm.tar.gz  	这个是安装ansible命令需要的依赖安装包
+hosts  				这个是ansible的服务器清单管理文件，可以在文件末尾添加主机IP（内容有示例）
+ansible.cfg  			这个是ansible的配置文件，不需要更改任何东西
+PS.需要把hosts、ansible.cfg 放到当前目录下的config目录中（需要你新建这个config目录），具体看安装脚本执行！！！
